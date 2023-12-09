@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+  scroll-behavior: smooth;
+}
+button{
+    padding:0;
+    border: none;
+    background: none;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+  background: url(./assets/images/backgroundimg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  opacity: 0.67;
+}
+
+nav {
+  max-width: 70vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list img {
+  height: 100px;
+  width: 100px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  z-index: 10;
+}
+
+#lang {
+  color: white;
+  background-color: black;
+  /* font-size: 20px; */
+  font-weight: 600;
+  border: 2px solid rgb(126, 122, 122);
+  border-radius: 5px;
+  padding: 4px 15px;
+  cursor: pointer;
+}
+
+.btn {
+  color: white;
+  background-color: red;
+  border: 2px solid rgb(126, 122, 122);
+  border-radius: 5px;
+  padding: 4px 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(189, 76, 76);
+}
+
+.content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  line-height: 55px;
+  margin: 0 200px;
+}
+
+.content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  z-index: 10;
+  letter-spacing: 1px;
+}
+
+.content h3 {
+  font-weight: 400;
+  width: 75%;
+  text-align: center;
+  z-index: 10;
+}
+h3{
+    font-size: 24px;
+}
+
+.last {
+  font-size: 16px;
+}
+
+.email {
+  z-index: 10;
+  display: flex;
+  gap: 10px;
+}
+
+.email input {
+  padding: 11px 190px 11px 10px;
+  background-color: rgb(97, 84, 84);
+  color: white;
+  z-index: 10;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.btn1 {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.separation {
+  height: 7px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 10;
+}
+
+.first {
+  max-width: 70vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.text_area h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.text_area p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.img_area {
+  position: relative;
+}
+
+.img_area img {
+  width: 500px;
+  position: relative;
+  z-index: 10;
+}
+
+.img_area video {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 440px;
+}
+
+
+.fqbox h1 {
+  color: white;
+  text-align: center;
+  margin: 30px 0;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 70vw;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: rgb(58, 56, 56);
+}
+
+.box1:hover {
+  background-color: rgb(84, 84, 84);
+}
+
+.box1 h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 21px;
+}
+
+.fqbox svg {
+  filter: invert(1);
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.fqbox1 {
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fqbox1 h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.email1 {
+  margin-bottom: 60px;
+}
+
+footer {
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  margin-top: 20px;
+}
+
+.foot {
+  display: inline-block;
+}
+
+.foot1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer h4 {
+  margin-bottom: 20px;
+}
+ul li a {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+}
+ul li a:hover {
+  color: white;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 100px;
+}
